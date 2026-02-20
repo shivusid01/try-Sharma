@@ -148,11 +148,8 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
-
-// Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://try-sharma-1.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
