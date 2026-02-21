@@ -149,7 +149,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://try-sharma-1.onrender.com/api',
+  baseURL: import.meta.env.VITE_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
