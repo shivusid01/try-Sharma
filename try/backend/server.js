@@ -391,7 +391,7 @@ const app = express();
 
 // CORS Configuration
 const allowedOrigins = [
-  process.env.APP_URL || 'http://localhost:5173',
+  // process.env.APP_URL || 'http://localhost:5173',
   process.env.FRONTEND_URL || 'https://try-sharma-frontend.onrender.com',
   'http://localhost:5174',
   'http://localhost:3000',
